@@ -626,6 +626,7 @@ footer{
 @media screen and (max-width: 825px){
 	.sidebar a{
 		margin-top: 5px;
+		text-align: center;
 	}
 	.sidebar li{
 		height: 45px;
@@ -639,16 +640,23 @@ footer{
 	}
 }
 @media screen and (max-width: 745px){
-	.blue-sidebar li{
+	.sidebar li{
 		float: none;
 		border: none;
+		display: inline;
+	}
+	.sidebar a{
+		padding: 3px 0 3px 0;
+	}
+	.sidebar a:hover{
+		text-decoration: underline;
 	}
 	.red-sidebar li{
 		margin-left: 38%;
 	}
 	.red-sidebar a{
 		font-size: 0.5em;
-		padding-top: 5px;
+		padding: 0px 0 20px 0;
 	}
 	.red-sidebar li:first-child,.red-sidebar li:nth-child(2),.red-sidebar li:nth-child(3){
 		display: none;
@@ -701,5 +709,14 @@ footer{
 	}
 	.cover{
 		background-image: none;
+	}
+	.red-sidebar a{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.violet-sidebar a{
+	}
+	.sidebar li{
+		height: 63px;
 	}
 }
