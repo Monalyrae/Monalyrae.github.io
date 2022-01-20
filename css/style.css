@@ -720,3 +720,9 @@ footer{
 		height: 63px;
 	}
 }
+@media screen and (max-width: 516px){
+	.cover img{
+		margin-left: 30%;
+		margin-top: 15px;
+	}
+}
