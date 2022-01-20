@@ -495,7 +495,7 @@ footer{
 	text-align: center;
 }
 
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1910px) {
 	.sidebar{
 		float: none;
 		margin-left: 192px;
@@ -519,18 +519,26 @@ footer{
 		padding-left: 30px;
 		margin-top: 6px;
 	}
+	menu ul{
+		padding-left: 0;
+	}
+	.main,.sidebar,menu,.pre-footer,.cover img{
+  	margin-left: 20%;
+    }
+}
+@media screen and (max-width: 1900px){
+	.main,.sidebar,menu,.pre-footer,.cover img{
+  	margin-left: 15%;
+    }
 }
 @media screen and (max-width: 1600px) {
   .main,.sidebar,menu,.pre-footer,.cover img{
-  	margin-left: 10%;
+  	margin-left: 13%;
   }
-  menu ul{
-  	padding-left: 0;
-  }
-}
+  menu ul{padding-left: 0; } }
 @media screen and (max-width: 1450px){
   .main,.sidebar,menu,.pre-footer,.cover img{
-  	margin-left: 5%;
+  	margin-left: 6%;
   }
   menu ul{
   	padding-left: 0;
