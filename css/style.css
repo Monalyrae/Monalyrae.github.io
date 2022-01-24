@@ -516,19 +516,22 @@ footer{
 
 @media screen and (max-width: 1910px) {
 	.sidebar{
-		float: none;
-		margin-left: 192px;
 		width: 1160px;
+		float: none;
 	}
-	.sidebar li{
+	.red-sidebar li{
 		float: left;
 		width: 33.3%;
 	}
 	.sidebar a{
 		font-size: 15px;
 	}
-	.yellow-sidebar li,.green-sidebar li,.blue-sidebar li{
-		width: 227px;
+	.yellow-sidebar li,.green-sidebar li,.blue-sidebar li,.violet-sidebar li{
+		width: 232px;
+		float: left;
+	}
+	.violet-sidebar li{
+		width: 290px;
 	}
 	.green-sidebar a,.yellow-sidebar a{
 		padding-left: 30px;
@@ -540,8 +543,8 @@ footer{
 	menu ul{
 		padding-left: 0;
 	}
-	.main,.sidebar,menu,.pre-footer,.cover img{
-  	margin-left: 20%;
+	.main,menu,.sidebar.pre-footer,.cover img{
+  		margin-left: 20%;
     }
 }
 @media screen and (max-width: 1900px){
@@ -613,6 +616,9 @@ footer{
 	.yellow-sidebar li,.green-sidebar li,.blue-sidebar li,menu li{
 		width: 20%;
 	}
+	.violet-sidebar li{
+		width: 25%;
+	}
 	.test-covid{
     	border: none;
     	font-weight: 500;
@@ -634,8 +640,12 @@ footer{
 	menu li{
 		font-size: 1.5em;
 	}
-	.sidebar{
+	.red-sidebar{
 		display: none;
+	}
+	.green-sidebar a{
+		margin-top: 8px ;
+		margin-left: 10px;
 	}
 	.test-covid{
 		margin-top: 10px;
@@ -666,6 +676,9 @@ footer{
 		width: 25px;
 		margin-top: 5px;
 	}
+	.green-sidebar a{
+		padding-left: 0;
+	}
 	menu li{
 		font-size: 1.25em;
 	}
@@ -688,9 +701,6 @@ footer{
 	.red-sidebar a{
 		font-size: 0.5em;
 		padding: 0px 0 20px 0;
-	}
-	.red-sidebar li:first-child,.red-sidebar li:nth-child(2),.red-sidebar li:nth-child(3){
-		display: none;
 	}
 	.sidebar li{
 		border: none;
@@ -747,8 +757,6 @@ footer{
 	.red-sidebar a{
 		padding-top: 0;
 		margin-top: 0;
-	}
-	.violet-sidebar a{
 	}
 	.sidebar li{
 		height: 63px;
